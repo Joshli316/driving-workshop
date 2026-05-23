@@ -1,4 +1,4 @@
-const CACHE = 'driving-workshop-v6';
+const CACHE = 'driving-workshop-v7';
 const ASSETS = [
   '/',
   '/index.html',
