@@ -1280,6 +1280,29 @@ a:focus-visible {
 }
 .tax-rule-en { font-size: 16px; color: var(--text-sub); line-height: 1.5; }
 
+/* ─── Inline SVG Visualizations ──────────────────────────── */
+.viz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: 4px auto 14px;
+  width: 100%;
+}
+.viz-caption {
+  font-size: 16px;
+  color: var(--text-sub);
+  text-align: center;
+  max-width: 540px;
+  line-height: 1.45;
+}
+.viz-caption .zh {
+  font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  font-size: 18px;
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+
 /* ─── Job Cards (Slide 10 Full-Time Driving) ──────────────── */
 .job-grid {
   display: grid;
