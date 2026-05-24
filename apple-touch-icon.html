@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Apple Touch Icon — Driving &amp; Delivery Workshop</title>
+<style>
+  :root {
+    --primary: #c2410c;
+    --primary-dark: #9a3412;
+    --accent: #fbbf24;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 360px; height: 360px; overflow: hidden; }
+  body {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  body::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 30% 30%, rgba(251,191,36,0.18) 0%, transparent 60%);
+  }
+  .icon {
+    color: #fff7ed;
+    width: 210px;
+    height: 210px;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(0 4px 18px rgba(0,0,0,0.35));
+  }
+</style>
+</head>
+<body>
+  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H5.24a2 2 0 0 0-1.8 1.1l-.8 1.63A6 6 0 0 0 2 12.42V16h2"></path>
+    <circle cx="6.5" cy="16.5" r="2.5"></circle>
+    <circle cx="16.5" cy="16.5" r="2.5"></circle>
+  </svg>
+</body>
+</html>

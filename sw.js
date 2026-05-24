@@ -1,4 +1,4 @@
-const CACHE = 'driving-workshop-v7';
+const CACHE = 'driving-workshop-v8';
 const ASSETS = [
   '/',
   '/index.html',
@@ -11,6 +11,7 @@ const ASSETS = [
   '/resources.js',
   '/404.js',
   '/og-image.jpg',
+  '/apple-touch-icon.png',
   '/sitemap.xml',
 ];
 
